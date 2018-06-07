@@ -1,0 +1,14 @@
+<html>
+<head>
+<script type="text/JavaScript">
+<!--
+function popup() {
+alert("Hello World")
+}
+//-->
+</script>
+</head>
+<body>
+<input type="button" onclick="popup()" value="popup">
+</body>
+</html>

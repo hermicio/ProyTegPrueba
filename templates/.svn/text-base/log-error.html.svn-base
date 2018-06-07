@@ -1,0 +1,19 @@
+<HTML>
+    <HEAD>
+        <link rel="stylesheet" type="text/css" href="static/style.css" />
+        <link type="text/javascript/" href="static/style.css">
+    <TITLE> TegZilla </TITLE>
+    </HEAD>
+    <BODY>
+        <div id="page">
+            <div id="header" class="main-level-box">
+                <h1> Error, pruebe con otro pasword o nombre de usuario </h1>
+            </div>
+        </div>
+        <div id="headerdown">
+            <h2>
+                <a href="http://127.0.0.1:8000/index">volver a pagina principal</a>
+            </h2>
+        </div>
+    </BODY>
+</HTML>

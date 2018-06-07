@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/2011/is/grupo3/svn/!svn/ver/28/trunk/templates
+END
+prueba.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/2011/is/grupo3/svn/!svn/ver/23/trunk/templates/prueba.html
+END
+register.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/2011/is/grupo3/svn/!svn/ver/26/trunk/templates/register.html
+END
+faq.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/2011/is/grupo3/svn/!svn/ver/23/trunk/templates/faq.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/2011/is/grupo3/svn/!svn/ver/26/trunk/templates/index.html
+END
+log-error.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/2011/is/grupo3/svn/!svn/ver/26/trunk/templates/log-error.html
+END
+log-ok.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/2011/is/grupo3/svn/!svn/ver/26/trunk/templates/log-ok.html
+END
+rules.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/2011/is/grupo3/svn/!svn/ver/23/trunk/templates/rules.html
+END
+register-error.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/2011/is/grupo3/svn/!svn/ver/26/trunk/templates/register-error.html
+END
+register-ok.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/2011/is/grupo3/svn/!svn/ver/26/trunk/templates/register-ok.html
+END

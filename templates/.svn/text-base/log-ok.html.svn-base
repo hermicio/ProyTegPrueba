@@ -1,0 +1,20 @@
+<HTML>
+    <HEAD>
+        <link rel="stylesheet" type="text/css" href="static/style.css" />
+        <script type="text/javascript">
+          <!--
+            function delayer(){
+              window.location = "http://127.0.0.1:8000/main"
+            }
+          //-->
+        </script>
+        <TITLE> TegZilla </TITLE>
+    </HEAD>
+    <BODY onload="setTimeout('delayer()', 3000)">
+        <div id="page">
+            <div id="headerdown" class="main-level-box">
+                <h1> Bienvenido {{ usr.nombre }} </h1>
+            </div>
+        </div>
+    </BODY>
+</HTML>

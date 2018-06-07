@@ -1,0 +1,65 @@
+<HTML>
+    <HEAD>
+        <style type="text/css">
+            body { background-color:#333333;
+                  background-image:url(background.jpg);
+                  background-repeat:repeat-y;
+                  font-size:10pt;
+                  font-family:Verdana;
+                  margin:0;
+                  padding:0;
+                  color:#FFFFFF;}
+             #page { width:900px;
+                     background-image:url(images/page.png);
+                     margin:auto;
+                     padding:auto;}
+             #header { clear:both;
+                       padding-top:20px;
+                       text-align:center;
+                       height:330px;}
+             #headertop { padding-left:20px;
+                          padding-top:20px;
+                          padding-bottom:20px;
+                          background-color:#000000;}
+             #rightregister { padding-right:20px;
+                              float:right;
+                              text-align:right;}
+             #headerdown { clear:both;
+                           text-align:center;
+                           background-color:#111111;}
+        </style>
+        <script type="text/javascript">
+        <!--
+            function popupreg(){
+                window.open( "http://127.0.0.1:8000/register", "myWindow", 
+                "status = 1, height = 300, width = 300, resizable = 0" )
+            }
+        //-->
+        </script>
+	    <TITLE> TEG </TITLE>
+    </HEAD>
+
+    <BODY>
+	<div id="page">
+        <div id="header" class="main-level-box">
+		    <h1>
+                Bienvenidos a TEG
+		    </h1>
+        </div>
+        <div id="headertop" class="main-level-box">
+            <form action="/log/" method="post">
+                {% csrf_token %}
+                Usuario:<input type='text' name='q'/>
+                Password: <input type='text' name='pass'/>
+                <input type='submit' value='Loggearse' />
+		<div id="rightregister">
+			Obten tu cuenta:<input type="button" 
+			onclick="popupreg()" value="Registrarse">
+		</div>
+            </form>
+
+        </div>
+
+	</div>
+    </BODY>
+</HTML>

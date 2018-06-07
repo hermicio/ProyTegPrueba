@@ -1,0 +1,22 @@
+<HTML>
+    <HEAD>
+        <link rel="stylesheet" type="text/css" href="static/game.css" />
+        <script type="text/javascript" src="static/index.js"> </script>
+        <TITLE> TEG </TITLE>
+    </HEAD>
+    
+    <BODY>
+        <div id="main" class="main-level-box">
+            <form action="/registrar-ok/" method="post">
+                {% csrf_token %}
+                Apodo:<input type='text' name='apodo'/> <br />
+                Nombre:<input type='text' name='nombre'/> <br />
+                Apellido:<input type='text' name='apellido'/> <br />
+                Email: <input type='text' name='email' /><br />
+                Password: <input type='password' name='pass' /><br />
+                Confirmar Password: <input type='password' name='passconf' /><br />
+                <input type='submit' value='Registrar' />
+            </form>
+        </div>
+    </BODY>
+</HTML>

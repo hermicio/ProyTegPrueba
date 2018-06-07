@@ -1,0 +1,139 @@
+/* 
+ *
+ * Don't stole it bitch! It's simple but it's my own work!
+ *
+ * by Nicolás Luna
+ *
+ */
+ 
+body {
+    background-color:#333333;
+    background-image:url(background.jpg);
+    background-repeat:repeat-y;
+    font-size:10pt;
+    font-family:Verdana;
+    margin:0;
+    padding:0;
+    color:#FFFFFF;
+}
+
+#page {
+    width:900px;
+    background-image:url(images/page.png);
+    margin:auto;
+    padding:auto;
+}
+
+#header {
+    clear:both;
+    padding-top:20px;
+    text-align:center;
+    height:330px;
+}
+
+#headertop {
+    padding-left:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color:#000000;
+}
+
+
+#headerleft {
+    width:640px;
+    padding-left:60px;
+    float:left;
+    padding-top:46px;
+    height:250px;
+}
+
+#headerleft .content {
+    padding-right:10px;
+    padding-top:20px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+#rightregister {
+    padding-right:20px;
+    float:right;
+    text-align:right;
+}
+
+#headerright {
+    width:180px;
+    float:right;
+    padding-top:35px;
+    height:150px;
+}
+
+#headerdown {
+    clear:both;
+    text-align:center;
+    background-color:#111111;
+}
+.widget {
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:15px;
+}
+
+#mainarea {
+    width:860px;
+    clear:both;
+    padding-left:30px;
+}
+
+#contentarea {
+    width:625px;
+    padding-left:20px;
+    padding-bottom:20px;
+    float:left;
+    line-height:14pt;
+    padding-top:5px;
+}
+
+#footer {
+    width:900px;
+    clear:both;
+    height:34px;
+    padding-top:30px;
+    text-align:center;
+    line-height:14pt;
+    background-image:url(images/footer.png);
+    background-repeat:no-repeat;
+    color:#FFFFFF;
+}
+
+#footer a {
+    color:#FFFFFF;
+}
+
+h1, h1 a {
+    font-size:28pt;
+    color:#FFFFFF;
+    margin:0;
+}
+
+h2 {
+    font-size:14pt;
+    color:#FFFFFF;
+    padding-top:6px;
+}
+
+.description {
+    font-size:14pt;
+    color:#FFFFFF;
+}
+
+a {
+    color:#FFFFFF;
+    text-decoration:bold;
+}
+
+#sidebar a {
+    color:#0F0F0F;
+}
+
+a:hover {
+}

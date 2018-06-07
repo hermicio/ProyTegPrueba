@@ -1,0 +1,27 @@
+/* Global */
+
+body {
+    margin: 0;
+    font-family: Gill Sans,Arial,sans-serif;
+    font-size: 12px;
+    /*background-color: #cccccc;*/
+    background-color: gray;
+}
+
+/* Structure boxes */
+
+.main-level-box {
+    min-width: 900px;
+    clear: both;
+}
+
+#header {
+    height: 90px;
+    background-color: black;
+}
+
+#main {
+    /*margin: auto;*/
+    width: 900px;
+    
+}
